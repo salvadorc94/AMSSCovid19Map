@@ -18,4 +18,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 This code is licenced under [GPLv3.0](https://choosealicense.com/licenses/gpl-3.0/).
 
-Resources are licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+Resources are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
