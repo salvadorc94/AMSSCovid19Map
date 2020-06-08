@@ -1,5 +1,11 @@
 var casos = L.layerGroup();
-L.marker([13.698889, -89.191389]).bindPopup("Some info").addTo(casos);
+L.marker([13.73241, -89.21176]).bindPopup("Ayutuxtepeque: 18").addTo(casos);
+L.marker([13.69899,-89.11584]).bindPopup("Ilopango: 80").addTo(casos);
+L.marker([13.73536, -89.07157]).bindPopup("San Martin: 60").addTo(casos);
+L.marker([13.702188, -89.141838]).bindPopup("Soyapango: 258").addTo(casos);
+L.marker([13.66464, -89.18258]).bindPopup("San Marcos: 48").addTo(casos);
+L.marker([13.6983, -89.19619]).bindPopup("San Salvador: 556").addTo(casos);
+L.marker([13.673324, -89.24461]).bindPopup("Antiguo Cuscatlan: 19").addTo(casos);
 
 var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
         '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
