@@ -38,6 +38,6 @@ function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
         .setContent("You clicked the map at " + e.latlng.toString())
-        .openOn(mymap);
+        .openOn(map);
 }
-mymap.on('click', onMapClick);
+map.on('click', onMapClick);
