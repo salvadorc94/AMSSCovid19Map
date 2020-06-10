@@ -1,1 +1,5 @@
-#covidmap { height: 500px; width: 500px; }
+#covidmap { 
+    height: 500px; 
+    width: 500px; 
+    width: 100% !important;
+}

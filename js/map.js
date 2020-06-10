@@ -1,11 +1,18 @@
 var casos = L.layerGroup();
-L.marker([13.73241, -89.21176]).bindPopup("Ayutuxtepeque: 18").addTo(casos);
-L.marker([13.69899,-89.11584]).bindPopup("Ilopango: 80").addTo(casos);
-L.marker([13.73536, -89.07157]).bindPopup("San Martin: 60").addTo(casos);
-L.marker([13.702188, -89.141838]).bindPopup("Soyapango: 258").addTo(casos);
-L.marker([13.66464, -89.18258]).bindPopup("San Marcos: 48").addTo(casos);
+L.marker([13.735383, -89.201088]).bindPopup("Ayutuxtepeque: 18").addTo(casos);
+L.marker([13.694108, -89.109249]).bindPopup("Ilopango: 80").addTo(casos);
+L.marker([13.737718, -89.055519]).bindPopup("San Martin: 60").addTo(casos);
+L.marker([13.703031, -89.150276]).bindPopup("Soyapango: 258").addTo(casos);
+L.marker([13.657497, -89.182463]).bindPopup("San Marcos: 48").addTo(casos);
 L.marker([13.6983, -89.19619]).bindPopup("San Salvador: 556").addTo(casos);
-L.marker([13.673324, -89.24461]).bindPopup("Antiguo Cuscatlan: 19").addTo(casos);
+L.marker([13.674427, -89.241171]).bindPopup("Antiguo Cuscatlan: 19").addTo(casos);
+L.marker([13.812743, -89.230614]).bindPopup("Nejapa: 10").addTo(casos);
+L.marker([13.779068, -89.116287]).bindPopup("Tonacatepeque: 45").addTo(casos);
+L.marker([13.800407, -89.177742]).bindPopup("Apopa: 81").addTo(casos);
+L.marker([13.722876, -89.171219]).bindPopup("Ciudad Delgado: 107").addTo(casos);
+L.marker([13.723043, -89.18787]).bindPopup("Mejicanos: 135").addTo(casos);
+L.marker([13.673343, -89.286232]).bindPopup("Santa Tecla: 103").addTo(casos);
+L.marker([13.727837, -89.180961]).bindPopup("Cuscatancingo: 42").addTo(casos);
 
 var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
         '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
