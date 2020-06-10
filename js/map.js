@@ -48,3 +48,7 @@ function onMapClick(e) {
         .openOn(map);
 }
 map.on('click', onMapClick);
+
+function centerMap(){
+    map.setView([13.698889, -89.191389], 13);
+}
