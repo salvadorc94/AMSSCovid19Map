@@ -1,1 +1,11 @@
-#covidmap { height: 500px; width: 500px; }
+#covidmap { 
+    height: 500px; 
+    width: 500px; 
+    width: 100% !important;
+}
+
+footer{
+    text-align: center; 
+    background-color: black;
+    color: lightblue;
+}
