@@ -1,34 +1,113 @@
 <!DOCTYPE html>
-  <head>
-    <title>Inicio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--
-      The MIT License (MIT)
-      Copyright (c) 2011-2020 Twitter, Inc.
-      Copyright (c) 2011-2020 The Bootstrap Authors
-    -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin=""></script>
-   <!--
-      BSD 2-Clause "Simplified" License
-      Copyright (c) 2010-2019, Vladimir Agafonkin
-      Copyright (c) 2010-2011, CloudMade
-      All rights reserved.
-    -->
-   <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body background="resources/17834.jpg">
-    <h1>Área metropolitana de San Salvador</h1>
-    <div id="covidmap"></div>
-    <button type="button" class="btn btn-success" onclick='centerMap()' id="button_centrar">Centrar mapa</button>
-    <script src="js/map.js"></script>
-    <br></br>
-    <footer> Fondo creado por <a href="http://www.freepik.com">Harryarts en Freepik</a></footer>
-  </body>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>AMSS COVID-19 Map</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/full-width-pics.css" rel="stylesheet">
+
+  <!--
+    The MIT License (MIT)
+    Copyright (c) 2011-2020 Twitter, Inc.
+    Copyright (c) 2011-2020 The Bootstrap Authors
+  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+  <!--
+    BSD 2-Clause "Simplified" License
+    Copyright (c) 2010-2019, Vladimir Agafonkin
+    Copyright (c) 2010-2011, CloudMade
+    All rights reserved.
+  -->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">AMSS Covid-19 Map</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header - set the background image for the header in the line below -->
+  <header class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1076');">
+    <div></div>
+  </header>
+
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container">
+      <h1>AMSS COVID-19 Map</h1>
+      <p class="lead">Geoportal sobre Covid-19 en el Area Metropolitana de San Salvador, El Salvador</p>
+    </div>
+  </section>
+
+  <div id="covidmap"></div>
+  <button type="button" class="btn btn-primary" onclick='centerMap()' id="button_centrar">Centrar mapa</button>
+  
+
+
+  <!-- Image element - set the background image for the header in the line below -->
+  <!--<div class="py-5 bg-image-full" id="covidmap">-->
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  <!--</div>-->
+
+  <!-- Content section -->
+  <!--<section class="py-5">
+    <div class="container">
+      <h1>Section Heading</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+  </section>-->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; AMSS Covid-19 Map 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- LeafletJS -->
+  <script src="js/map.js"></script>
+
+</body>
+
 </html>
