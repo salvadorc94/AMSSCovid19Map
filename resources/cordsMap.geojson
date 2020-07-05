@@ -2,6 +2,12 @@
   "features": [{
     "type": "Feature",
     "geometry": { "type": "Point", "coordinates": [-89.19065952301025, 13.701363124914945] },
-    "properties": { "text": "asd" }
-  }]
+    "properties": { "text": "Ayuxtutepeque: 18" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [13.673343, -89.286232] },
+    "properties": { "text": "Santa Tecla: 103" }
+  }
+  ]
 }
