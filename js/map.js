@@ -34,7 +34,7 @@ var normal   = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoom
 
 var map = L.map('covidmap', {
     center: [13.698889, -89.191389],
-    zoom: 13,
+    zoom: 12,
     layers: [normal, casos]
 });
 
@@ -68,5 +68,5 @@ function centerMap(){
     las coordenadas latitud, longitud y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 13
     */
-    map.setView([13.698889, -89.191389], 13);
+    map.setView([13.698889, -89.191389], 12);
 }
