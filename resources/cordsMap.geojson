@@ -8,6 +8,11 @@
     "type": "Feature",
     "geometry": { "type": "Point", "coordinates": [-89.286232,13.673343] },
     "properties": { "text": "Santa Tecla: 103" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.109249,13.694108] },
+    "properties": { "text": "Ilopango: 80" }
   }
   ]
 }
