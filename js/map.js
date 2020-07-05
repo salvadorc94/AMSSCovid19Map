@@ -1,5 +1,5 @@
 var casos = L.layerGroup();
-fetch('https://raw.githubusercontent.com/salvadorc94/geoJson/master/cords.geojson')
+fetch('https://raw.githubusercontent.com/salvadorc94/AMSSCovid19Map/dev/resources/cordsMap.geojson')
 .then(
     res => res.json()
 ).then(
