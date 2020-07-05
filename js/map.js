@@ -1,3 +1,17 @@
+/*var casos = L.layerGroup();
+fetch('http://babel.webreactiva.com/labs/arboles_singulares_en_espacios_naturales.geojson')
+.then(
+    res => res.json()
+).then(
+    data => {
+        let geojsonlayer = L.geoJSON(data, {
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(feature.properties['arbol_nombre'])
+            }
+        }).addTo(casos)
+    }
+)*/
+
 var casos = L.layerGroup();
 L.marker([13.735383, -89.201088]).bindPopup("Ayutuxtepeque: 18").addTo(casos);
 L.marker([13.694108, -89.109249]).bindPopup("Ilopango: 80").addTo(casos);
