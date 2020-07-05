@@ -6,7 +6,7 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [13.673343, -89.286232] },
+    "geometry": { "type": "Point", "coordinates": [-89.286232,13.673343] },
     "properties": { "text": "Santa Tecla: 103" }
   }
   ]
