@@ -40,7 +40,7 @@ var map = L.map('covidmap', {
 });
 
 var baseLayers = {
-    "Normal": normal,
+    "Light": normal,
     "Dark": dark
 };
 
