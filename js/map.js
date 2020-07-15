@@ -20,6 +20,7 @@ fetch('https://raw.githubusercontent.com/salvadorc94/AMSSCovid19Map/dev/resource
     }
 )
 
+/*En esta parte definimos los mapas que utilizaremos en este caso obtenemos un mapa bajo la licencia CC BY-SA 2.0 que esta alojado en MapBox */
 var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
         '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
         'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -31,7 +32,7 @@ en este caso el estilo normal del mapa y el estilo dark
 var normal   = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr}),
     dark  = L.tileLayer(mbUrl, {id: 'mapbox/dark-v10', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
 
-
+/*Creamos nuestro mapa con las coordenadas centrales y añadimos a este los Layers que antes habiamos creado*/
 var map = L.map('covidmap', {
     center: [13.698889, -89.191389],
     zoom: 12,
@@ -70,7 +71,7 @@ function centerMap(){
     */
     map.setView([13.698889, -89.191389], 12);
 }
-
+/*Implementación del botón para regresar arriba del sitio*/
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
