@@ -39,6 +39,7 @@ var map = L.map('covidmap', {
     layers: [normal, casos]
 });
 
+
 var baseLayers = {
     "Light": normal,
     "Dark": dark
@@ -52,6 +53,8 @@ L.control.layers(baseLayers, overlays).addTo(map);
 
 
 var popup = L.popup();
+
+
 
 //Esta funcion nos sirve para mostrar las coordenadas en el mapa sobre las cuales hayamos clickeado
 function onMapClick(e) {
@@ -67,10 +70,124 @@ function centerMap(){
 
     /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
     las coordenadas latitud, longitud y la siguiente la altura a la que queremos
-    el zoom en este caso se ha seteado a 13
+    el zoom en este caso se ha seteado a 12
     */
     map.setView([13.698889, -89.191389], 12);
 }
+//Funciones para centrar en el  municipio
+function verSS(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de San Salvador y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.696693, -89.196281], 15);
+}
+function verSoya(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Soyapango y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.703031, -89.150276], 15);
+}
+function verMeji(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Mejicanos y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.723043, -89.18787], 15);
+}
+function verTecla(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Santa Tecla y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.673343, -89.286232], 15);
+}
+function verI(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Ilopango y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.694108, -89.109249], 15);
+}
+function verCD(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Ciudad Delgado y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.722876, -89.171219], 15);
+}
+function verA(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Apopa y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.800407, -89.177742], 15);
+}
+function verSM(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de San Marcos y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.657497, -89.182463], 15);
+}
+function verSMt(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de San Martin y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.737718, -89.055519], 15);
+}
+function verCusca(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Cuscatancingo y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.727837, -89.180961], 15);
+}
+function verTona(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Tonacatepeque y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.779068, -89.116287], 15);
+}
+function verAntiguo(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Antiguo Cuscatlan y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.674427, -89.241171], 15);
+}
+function verAyutux(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Ayutuxtepeque y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.735383, -89.201088], 15);
+}
+function verNejapa(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud de Nejapa y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 15
+    */
+    map.setView([13.812743, -89.230614], 15);
+}
+
 /*Implementación del botón para regresar arriba del sitio*/
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
