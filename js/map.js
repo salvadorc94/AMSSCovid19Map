@@ -70,9 +70,17 @@ function centerMap(){
 
     /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
     las coordenadas latitud, longitud y la siguiente la altura a la que queremos
-    el zoom en este caso se ha seteado a 13
+    el zoom en este caso se ha seteado a 12
     */
     map.setView([13.698889, -89.191389], 12);
+}
+function verSS(){
+
+    /*map.setView recibe dos parametros el primero es un arreglo de dos posiciones
+    las coordenadas latitud, longitud y la siguiente la altura a la que queremos
+    el zoom en este caso se ha seteado a 13
+    */
+    map.setView([13.696693, -89.196281], 15);
 }
 /*Implementación del botón para regresar arriba del sitio*/
 $(document).ready(function(){ 
