@@ -3,7 +3,8 @@ GeoPortal using Leaflet showing the positive Covid-19 cases centered at the Metr
 
 ## Installation
 
-This project is ready to go, just clone it and enjoy.
+This project is ready to go, just clone it and enjoy. <br /> Documentation can be found on
+https://secg-1994.gitbook.io/amsscovid19map/
 
 ## Built With
 * [Leaflet](https://leafletjs.com/) - JavaScript library for mobile-friendly interactive maps.
@@ -22,3 +23,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 This code is licenced under [GPLv3.0](https://choosealicense.com/licenses/gpl-3.0/).
 
 Resources are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Theme is licenced under [MIT](https://choosealicense.com/licenses/mit/)

@@ -1,0 +1,73 @@
+{ "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.201088, 13.735383] },
+    "properties": { "text": "Ayuxtutepeque: 104" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.286232,13.673343] },
+    "properties": { "text": "Santa Tecla: 470" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.109249,13.694108] },
+    "properties": { "text": "Ilopango: 283" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.055519,13.737718] },
+    "properties": { "text": "San Martin: 146" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.150276,13.703031] },
+    "properties": { "text": "Soyapango: 760" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.182463,13.657497] },
+    "properties": { "text": "San Marcos: 175" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.19619,13.6983] },
+    "properties": { "text": "San Salvador: 1667" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.241171,13.674427] },
+    "properties": { "text": "Antiguo Cuscatlan: 121" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.230614,13.812743] },
+    "properties": { "text": "Nejapa: 39" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.116287,13.779068] },
+    "properties": { "text": "Tonacatepeque: 125" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.177742,13.800407] },
+    "properties": { "text": "Apopa: 206" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.171219,13.722876] },
+    "properties": { "text": "Ciudad Delgado: 238" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.18787,13.723043] },
+    "properties": { "text": "Mejicanos: 496" }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [-89.180961,13.727837] },
+    "properties": { "text": "Cuscatancingo: 135" }
+  }
+  ]
+}
