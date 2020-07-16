@@ -89,7 +89,7 @@ function verSoya(){
     las coordenadas latitud, longitud de Soyapango y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.703031, -89.150276], 15);
 }
 function verMeji(){
 
@@ -97,7 +97,7 @@ function verMeji(){
     las coordenadas latitud, longitud de Mejicanos y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.723043, -89.18787], 15);
 }
 function verTecla(){
 
@@ -105,7 +105,7 @@ function verTecla(){
     las coordenadas latitud, longitud de Santa Tecla y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.673343, -89.286232], 15);
 }
 function verI(){
 
@@ -113,7 +113,7 @@ function verI(){
     las coordenadas latitud, longitud de Ilopango y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.694108, -89.109249], 15);
 }
 function verCD(){
 
@@ -121,7 +121,7 @@ function verCD(){
     las coordenadas latitud, longitud de Ciudad Delgado y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.722876, -89.171219], 15);
 }
 function verA(){
 
@@ -129,7 +129,7 @@ function verA(){
     las coordenadas latitud, longitud de Apopa y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.800407, -89.177742], 15);
 }
 function verSM(){
 
@@ -137,7 +137,7 @@ function verSM(){
     las coordenadas latitud, longitud de San Marcos y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.657497, -89.182463], 15);
 }
 function verSMt(){
 
@@ -145,7 +145,7 @@ function verSMt(){
     las coordenadas latitud, longitud de San Martin y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.737718, -89.055519], 15);
 }
 function verCusca(){
 
@@ -153,7 +153,7 @@ function verCusca(){
     las coordenadas latitud, longitud de Cuscatancingo y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.727837, -89.180961], 15);
 }
 function verTona(){
 
@@ -161,7 +161,7 @@ function verTona(){
     las coordenadas latitud, longitud de Tonacatepeque y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.779068, -89.116287], 15);
 }
 function verAntiguo(){
 
@@ -169,7 +169,7 @@ function verAntiguo(){
     las coordenadas latitud, longitud de Antiguo Cuscatlan y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.674427, -89.241171], 15);
 }
 function verAyutux(){
 
@@ -185,7 +185,7 @@ function verNejapa(){
     las coordenadas latitud, longitud de Nejapa y la siguiente la altura a la que queremos
     el zoom en este caso se ha seteado a 15
     */
-    map.setView([13.696693, -89.196281], 15);
+    map.setView([13.812743, -89.230614], 15);
 }
 
 /*Implementación del botón para regresar arriba del sitio*/
