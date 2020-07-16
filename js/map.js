@@ -39,6 +39,7 @@ var map = L.map('covidmap', {
     layers: [normal, casos]
 });
 
+
 var baseLayers = {
     "Light": normal,
     "Dark": dark
@@ -52,6 +53,8 @@ L.control.layers(baseLayers, overlays).addTo(map);
 
 
 var popup = L.popup();
+
+
 
 //Esta funcion nos sirve para mostrar las coordenadas en el mapa sobre las cuales hayamos clickeado
 function onMapClick(e) {
