@@ -187,7 +187,91 @@ function verNejapa(){
     */
     map.setView([13.812743, -89.230614], 15);
 }
-
+/*Implementación de la funcion del botón en la tabla para regresar al mapa*/
+$(document).ready(function(){ 
+    $('#button_SS').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Soya').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Meji').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Tecla').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_I').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_CD').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_A').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_SM').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_SMt').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Cusca').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Tona').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Antiguo').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Ayutux').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+$(document).ready(function(){ 
+    $('#button_Nejapa').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
 /*Implementación del botón para regresar arriba del sitio*/
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
